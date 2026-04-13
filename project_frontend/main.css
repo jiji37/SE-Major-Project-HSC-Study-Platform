@@ -6,12 +6,12 @@
 
 body {
   font-family: Playfair Display, serif;
-  background-overlay: #F3E4C9;
+  background-color: rgba(243, 228, 201, 1);
   background-image: url("./background-image-signup.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 600px;
+  height: 1000px;
 }
 
 h1 {
