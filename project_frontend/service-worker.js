@@ -5,7 +5,7 @@ const urlsToCache = [
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/main.js',
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/service-worker.js',
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/main.css,
-  '/Programming-for-the-web/simple-pwa/icon.png',
+  '/Programming-for-the-web/simple-pwa/Screenshot_2026-04-13_104648-removebg-preview.png',
 ];
 
 // Install the service worker
