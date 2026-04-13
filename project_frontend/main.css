@@ -91,3 +91,9 @@ p{
   border-radius: 10px;
   border: 2px solid #BABF94;
 }
+/* Footer container */
+.footer {
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #BFA28C;
+}
