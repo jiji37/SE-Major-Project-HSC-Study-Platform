@@ -32,6 +32,11 @@ h5{
   color: black;
 }
 
+p{
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+}
 /* Header container */
 .navbar {
   display: flex;
@@ -65,3 +70,18 @@ h5{
 .nav-links a:hover {
   color: #00b7ff;
 }
+
+/* Input fields */
+#email{
+  align-items: center
+  color: #000
+}
+#username{
+  align-items: center
+  color: #000
+}
+#password{
+  align-items: center
+  color: #000
+}
+
