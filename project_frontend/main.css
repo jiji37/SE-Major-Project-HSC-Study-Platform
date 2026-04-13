@@ -78,7 +78,9 @@ p{
 }
 
 /* Input fields */
-#email, username, password{
-  text-align: center;
+#email, #username, #password{
   color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
