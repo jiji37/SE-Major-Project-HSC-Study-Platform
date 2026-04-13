@@ -8,7 +8,7 @@ body {
   font-family: Playfair Display, serif;
   background-color: #F3E4C9;
   color: #F3E4C9;
-  background-image: url("project_frontend/background-image-signup.png");
+  background-image: url("./background-image-signup.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
