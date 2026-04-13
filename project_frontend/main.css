@@ -6,8 +6,7 @@
 
 body {
   font-family: Playfair Display, serif;
-  background-color: #F3E4C9;
-  color: #F3E4C9;
+  background-overlay: #F3E4C9;
   background-image: url("./background-image-signup.png");
   background-size: cover;
   background-position: center;
@@ -28,17 +27,18 @@ h4 {
   font-style: italic;
   margin-bottom: 0.5rem;
   text-align: center;
-  color: #BABF94;
+  color: #A98B76;
 }
 
 h5{
   font-size: 2rem;
   text-align: center;
   color: black;
+  weight: normal;
 }
 
 p{
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   color: black;
   display: block;
@@ -78,11 +78,13 @@ p{
 }
 
 /* Input fields */
-#email, #username, #password{
+#email, #username, #password, #confirm{
   color: #000;
   display: block;
   margin: 10px auto;
   width: 300px;
-  height: 200px;
+  height: 50px;
   padding: 8px 12px;
+  border-radius: 10px;
+  border: 2px solid #BABF94;
 }
