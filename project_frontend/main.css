@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Playfair Display, serif;
+  font-family: Arial, sans serif;
   background-image: url("./background-image-signup.png");
   background-size: cover;
   background-position: center;
@@ -16,6 +16,7 @@ body {
 }
 
 h1 {
+  font-family: "Playfair Display", serif;
   font-size: 5rem;
   margin-top: 0rem;
   margin-bottom: 2rem;
@@ -56,7 +57,9 @@ p{
   padding: 15px 30px;
   background-color: #BFA28C;
   position: fixed;
-  width: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 /* Logo text */
@@ -103,7 +106,9 @@ p{
   background-color: #BFA28C;
   color: #FFF;
   height: 200px;
-  width: auto;
   position: static;
+  width: 100%;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
