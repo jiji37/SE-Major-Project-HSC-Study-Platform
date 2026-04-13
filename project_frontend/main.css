@@ -38,11 +38,13 @@ h5{
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   color: black;
   display: block;
+  text-wrap: balance;
 }
+
 /* Header container */
 .navbar {
   display: flex;
@@ -78,7 +80,7 @@ p{
 }
 
 /* Input fields */
-#email, #username, #password, #confirm{
+#email, #username, #password, #confirm {
   color: #000;
   display: block;
   margin: 10px auto;
