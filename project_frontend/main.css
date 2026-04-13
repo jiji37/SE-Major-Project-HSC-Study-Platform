@@ -12,9 +12,9 @@ body {
 
 h1 {
   font-size: 5rem;
+  margin-top: 0rem;
   margin-bottom: 3rem;
   text-align: center;
-  background-color: #F5F5DC;
 }
 
 h4 {
@@ -26,6 +26,6 @@ h4 {
 }
 
 h5{
-  font-size: 5rem;
+  font-size: 0.5rem;
   text-align: center;
 }
