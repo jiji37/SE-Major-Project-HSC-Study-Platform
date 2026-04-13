@@ -53,6 +53,7 @@ p{
   align-items: center;
   padding: 15px 30px;
   background-color: #BFA28C;
+  position: fixed;
 }
 
 /* Logo text */
@@ -96,4 +97,5 @@ p{
   align-items: center;
   padding: 15px 30px;
   background-color: #BFA28C;
+  height: 100px;
 }
