@@ -73,15 +73,15 @@ p{
 
 /* Input fields */
 #email{
-  align-items: center
-  color: #000
+  display: flex;
+  color: #000;
 }
 #username{
-  align-items: center
-  color: #000
+  display: flex;
+  color: #000;
 }
 #password{
-  align-items: center
-  color: #000
+  display: flex;
+  color: #000;
 }
 
