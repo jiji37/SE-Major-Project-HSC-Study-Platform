@@ -12,6 +12,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  height: 600px;
 }
 
 h1 {
@@ -77,22 +78,7 @@ p{
 }
 
 /* Input fields */
-#email{
-  display: block;
+#email, username, password{
+  text-align: center;
   color: #000;
 }
-#username{
-  display: block;
-  color: #000;
-}
-#password{
-  display: block;
-  color: #000;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* space between inputs */
-}
-
