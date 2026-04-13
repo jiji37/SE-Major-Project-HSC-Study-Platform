@@ -36,6 +36,7 @@ p{
   font-size: 1rem;
   text-align: center;
   color: black;
+  display: block;
 }
 /* Header container */
 .navbar {
@@ -73,15 +74,15 @@ p{
 
 /* Input fields */
 #email{
-  display: flex;
+  display: block;
   color: #000;
 }
 #username{
-  display: flex;
+  display: block;
   color: #000;
 }
 #password{
-  display: flex;
+  display: block;
   color: #000;
 }
 
