@@ -120,5 +120,7 @@ p{
   color: #00b7ff;
   font-size: 1rem;
   text-decoration: underline;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
