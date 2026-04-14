@@ -118,7 +118,7 @@ p{
   border: 2px solid #BABF94;
 }
 
-.button {
+button {
   width: 100px;
   height: 50px;
   cursor: pointer;
