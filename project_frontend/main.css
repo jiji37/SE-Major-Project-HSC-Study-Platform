@@ -123,14 +123,17 @@ button {
   height: 50px;
   cursor: pointer;
   background-color: #F3E4C9;
-  color: white;
-  border: 2px solid #000;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  border: 2px solid #FFF;
   border-radius: 10px;
-  padding: 15px 32px;
-  text-decoration: none;
+  padding: 15px 15px;
   display: block;
   text-align: center;
   margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .login {
