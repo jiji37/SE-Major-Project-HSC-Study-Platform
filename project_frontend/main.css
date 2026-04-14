@@ -115,12 +115,15 @@ p{
   bottom: 0;
 }
 
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .login a {
   text-decoration: none;
   color: #00b7ff;
   font-size: 1rem;
   text-decoration: underline;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
