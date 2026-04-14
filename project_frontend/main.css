@@ -65,18 +65,24 @@ p{
 }
 
 /* Logo */
-.logo {
+.icon {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.logo img {
+.icon img {
   height: 20px;
   width: auto;
 }
 
-.logo span {
+.icon span {
+  font-size: 10rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo{
   font-size: 10rem;
   font-weight: bold;
   color: white;
