@@ -117,19 +117,13 @@ p{
   border-radius: 10px;
   border: 2px solid #BABF94;
 }
-/* Footer container */
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 15px 30px;
 
-  background-color: #BFA28C;
-  color: #FFF;
-  height: 100px;
-  width: 100%;
-  bottom: 0;
+.button {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #F3E4C9;
+  color: white;
 }
 
 .login {
@@ -144,4 +138,19 @@ p{
   color: #00b7ff;
   font-size: 1rem;
   text-decoration: underline;
+}
+
+/* Footer container */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 30px;
+
+  background-color: #BFA28C;
+  color: #FFF;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
 }
