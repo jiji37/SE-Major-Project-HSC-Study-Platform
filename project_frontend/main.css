@@ -90,7 +90,7 @@ p{
 }
 
 /* Input fields */
-#email, #username, #password, #confirm {
+#email, #username, #password, #confirm, #userpassword{
   color: #000;
   display: block;
   margin: 10px auto;
