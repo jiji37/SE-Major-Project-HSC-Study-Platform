@@ -104,6 +104,7 @@ p{
 .footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 15px 30px;
   background-color: #BFA28C;
@@ -111,7 +112,7 @@ p{
   height: 100px;
   position: static;
   width: 100%;
-  bottom: 0;
+  margin-bottom: 0;
   left: 0;
   right: 0;
 }
