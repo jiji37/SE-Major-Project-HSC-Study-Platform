@@ -4,7 +4,7 @@ const urlsToCache = [
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/manifest.json',
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/main.js',
   '/SE-Major-Project-HSC-Study-Platform/project_frontend/service-worker.js',
-  '/SE-Major-Project-HSC-Study-Platform/project_frontend/main.css,
+  '/SE-Major-Project-HSC-Study-Platform/project_frontend/main.css',
   'SE-Major-Project-HSC-Study-Platform/project_frontend/Screenshot_2026-04-13_104648-removebg-preview.png',
 ];
 
