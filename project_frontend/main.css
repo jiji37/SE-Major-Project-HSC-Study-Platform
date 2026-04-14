@@ -116,9 +116,8 @@ p{
 }
 
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .login a {
