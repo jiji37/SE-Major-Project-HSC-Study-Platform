@@ -64,17 +64,22 @@ p{
   top: 0;
 }
 
-/* Logo text */
+/* Logo */
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.logo span {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
-  margin-left: 1px;
-}
-
-.icon img{
-width: 50px;
-height: auto;
 }
 
 /* Navigation links */
