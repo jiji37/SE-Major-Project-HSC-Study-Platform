@@ -103,11 +103,11 @@ p{
 /* Footer container */
 .footer {
   text-align: center;
-  align-items: center;
+  margin: 10px auto;
   padding: 15px 30px;
   background-color: #BFA28C;
   color: #FFF;
-  height: 200px;
+  height: 100px;
   position: static;
   width: 100%;
   bottom: 0;
