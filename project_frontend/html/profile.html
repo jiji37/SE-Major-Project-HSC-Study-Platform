@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfectionist.</title>
+  <link rel="manifest" href="/project_frontend/manifest.json">
+  <link rel="stylesheet" href="/project_frontend/css/main.css">
+  <link rel="icon" type="image/x-icon" href="/project_frontend/Screenshot_2026-04-13_104648-removebg-preview.ico">
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <div class="logo">Perfectionist</div>
+    <link rel="icon" type="image/x-icon" href="/project_frontend/Screenshot_2026-04-13_104648-removebg-preview.ico">
+    <ul class="nav-links">
+      <li><a href="/project_frontend/html/home.html">Home</a></li>
+      <li><a href="/project_frontend/html/progress.html">Progress Analyser</a></li>
+      <li><a href="/project_frontend/html/profile.html">Profile</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+<h1> Profile</h1>
+ <h3>Your Subjects</h3>
+
+  <div>
+  <input id="subject-name" placeholder="Subject name">
+  <select id="subject-priority">
+  <option value="1">Low</option>
+  <option value="2">Medium</option>
+  <option value="3">High</option>
+  </select>
+    <button id="createsub" onclick="createSubject()">Add Subject</button>
+  </div>
+
+  <h3>Subject List</h3>
+  <ul id="subject-list"></ul>
+
+  <h3>Assessments</h3>
+
+  <select id="assessment-subject">
+  <option value="1">Maths</option>
+  <option value="2">English</option>
+  <option value="3">Physics</option>
+  </select>
+
+  <select id="assessment-number">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  </select>
+
+  <input id="assessment-weight" type="number" placeholder="Weight %">
+  <input id="assessment-mark" type="number" placeholder="Mark %">
+
+  <button id="addassessment" onclick="createAssessment()">Add Assessment</button>
+
+  <h3>Your Assessments</h3>
+  <ul id="assessment-list"></ul>
+
+  <script src="/project_frontend/js/auth.js"></script>
+  <script src="/project_frontend/js/subjects.js"></script>
+
+  <ul class ="Login">
+  <li><a href="logon.html"> Logout </a></li>
+</main>
+
+</body>
+</html>
